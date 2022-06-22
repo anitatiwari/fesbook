@@ -9,9 +9,7 @@ module.exports = defineConfig({
             input: {
                 main: resolve(__dirname, 'index.html'),
                 book: resolve(__dirname, 'booking1.html'),
-                ticket: resolve(__dirname,'ticket.html'),
-                festival: resolveObjectURL(__dirname,'https://anitatiwari.github.io/festivalapp/')
-
+                ticket: resolve(__dirname,'ticket.html')
             }
         }
     }
